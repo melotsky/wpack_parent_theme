@@ -1,0 +1,11 @@
+/************************************************/
+/* EDITOR STYLE                                 */
+/************************************************/
+
+
+html .mceContentBody {
+	max-width: 100% !important;
+	width: inherit !important
+}
+
+

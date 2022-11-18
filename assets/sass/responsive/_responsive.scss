@@ -1,0 +1,109 @@
+/************************************************/
+/* MEDIA QUERIES THIS IS MOBILE FIRST APPROACH  */
+/************************************************/
+
+@media only screen and (min-width : 381px) and (max-width : 399px) {
+	.wrapper{
+		max-width: 100%;
+	}
+	.wrapper-group > div{
+		max-width: 100%;
+	}
+	
+
+}
+
+@media only screen and (min-width : 400px ) {
+	.wrapper{
+		max-width: 100%;
+	}
+	.wrapper-group > div{
+		max-width: 100%;
+	}
+}
+@media only screen and (min-width : 431px ) {}
+@media only screen and (min-width : 461px ) {}
+@media only screen and (min-width : 481px ) {}
+
+@media only screen and (min-width : 500px ) {}
+@media only screen and (min-width : 531px ) {}
+@media only screen and (min-width : 561px ) {}
+@media only screen and (min-width : 581px ) {}
+
+@media only screen and (min-width : 600px ) {}
+@media only screen and (min-width : 631px ) {}
+@media only screen and (min-width : 661px ) {}
+@media only screen and (min-width : 681px ) {}
+
+@media only screen and (min-width : 700px ) {}
+@media only screen and (min-width : 731px ) {}
+@media only screen and (min-width : 761px ) {}
+@media only screen and (min-width : 781px ) {}
+
+@media only screen and (min-width : 800px ) {}
+@media only screen and (min-width : 831px ) {}
+@media only screen and (min-width : 861px ) {}
+@media only screen and (min-width : 881px ) {}
+
+@media only screen and (min-width : 900px ) {}
+@media only screen and (min-width : 931px ) {}
+@media only screen and (min-width : 961px ) {}
+@media only screen and (min-width : 981px ) {}
+
+@media only screen and (min-width : 1000px ) {}
+@media only screen and (min-width : 1025px ) {}
+@media only screen and (min-width : 1031px ) {}
+@media only screen and (min-width : 1061px ) {}
+@media only screen and (min-width : 1081px ) {}
+
+@media only screen and (min-width : 1100px ) {}
+@media only screen and (min-width : 1131px ) {}
+@media only screen and (min-width : 1161px ) {}
+@media only screen and (min-width : 1181px ) {}
+
+@media only screen and (min-width : 1200px ) {}
+@media only screen and (min-width : 1231px ) {}
+@media only screen and (min-width : 1261px ) {}
+@media only screen and (min-width : 1281px ) {}
+
+@media only screen and (min-width : 1300px ) {}
+@media only screen and (min-width : 1331px ) {}
+@media only screen and (min-width : 1361px ) {}
+@media only screen and (min-width : 1381px ) {}
+
+@media only screen and (min-width : 1400px ) {}
+@media only screen and (min-width : 1431px ) {}
+@media only screen and (min-width : 1461px ) {}
+@media only screen and (min-width : 1481px ) {}
+
+@media only screen and (min-width : 1500px ) {}
+@media only screen and (min-width : 1531px ) {}
+@media only screen and (min-width : 1561px ) {}
+@media only screen and (min-width : 1581px ) {}
+
+@media only screen and (min-width : 1600px ) {}
+@media only screen and (min-width : 1631px ) {}
+@media only screen and (min-width : 1661px ) {}
+@media only screen and (min-width : 1681px ) {}
+
+@media only screen and (min-width : 1700px ) {}
+@media only screen and (min-width : 1731px ) {}
+@media only screen and (min-width : 1761px ) {}
+@media only screen and (min-width : 1781px ) {}
+
+@media only screen and (min-width : 1800px ) {}
+@media only screen and (min-width : 1831px ) {}
+@media only screen and (min-width : 1861px ) {}
+@media only screen and (min-width : 1881px ) {}
+
+@media only screen and (min-width : 1900px ) {}
+
+
+/***  FOR EVERLIGHT PLUGIN ONLY **/
+@media only screen and (max-width : 780px ) {
+	.everlightbox-backstage + img {
+	  width: 100% !important;
+	  max-width: unset !important;
+	} 
+  }
+  /***  FOR EVERLIGHT PLUGIN ONLY **/

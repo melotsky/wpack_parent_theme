@@ -1,0 +1,62 @@
+/* Language Switcher CSS */
+.eteam-language-switcher {
+	display: inline-block;
+	width: 155px;
+	cursor: pointer;
+	position: relative;
+	z-index: 1500;
+}
+
+.eteam-language-heading {
+	overflow: hidden;
+}
+
+.eteam-language-heading > span {
+	float: left;
+}
+
+.eteam-language-heading .icon {
+	width: 21px;
+}
+
+.eteam-language-heading .title {
+	width: 76.12903225806452%;
+	color: #ffffff;
+	font-family: inherit;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.eteam-language-heading .caret {
+	width: 15px;
+}
+
+.eteam-language-list.open { 
+	min-width: 130px;
+	display: block !important;
+}
+
+.eteam-language-list {
+	display: none;
+	position: absolute;
+	list-style-type: none;
+	top: 35px;
+	background-color: #ffffff;
+	left: 0;
+	right: 0;
+	padding: 10px 0;
+	margin: 0;
+}
+
+.eteam-language-list li {
+	padding: 0.2em 2em;
+}
+
+.eteam-language-list li:hover {
+	background-color: #e5e5e5;
+}
+
+.eteam-language-list li img {
+	margin-right: 1em;
+}

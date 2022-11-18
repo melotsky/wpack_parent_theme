@@ -1,0 +1,651 @@
+* {
+	text-rendering: optimizeLegibility;
+	outline: none !important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html {
+	overflow-x: hidden;
+}
+html.sb-init{
+    margin: 0 !important
+}
+body {
+	background: #ffffff;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: $font__family;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+	
+a, a:hover, a:link, a:active, a:focus, a:visited, button, input[type="submit"]{
+  @include tranny;
+}
+
+a, a:hover, a:link, a:active, a:focus, a:visited {
+	text-decoration: none;
+	outline: none;
+}
+a, a:hover, a:link, a:active, a:focus, a:visited {
+	text-decoration: none;
+	outline: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+	color:#999999;
+}
+a img {
+	border: none;
+}
+ul, ol, dl, p, ul li, ol li, h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	/*font-family: 'Oswald', sans-serif;*/
+}
+
+.wrapper {
+	max-width: 360px;
+	margin: 0 auto 0;
+	width: 94%;
+}
+.wrapper-group {
+  > div{
+    max-width: 360px;
+    margin: 0 auto 0;
+    width: 94%;
+  }
+}
+.wrapper-full-on-phone{
+	max-width: 100%;
+	margin: 0 auto 0;
+	width: 100%;
+}
+.wrapper-eb{
+  padding: 0;
+  > .wrapper-inner{
+    max-width: 360px;
+    margin: 0 auto 0;
+    width: 94%;
+    padding: 0;
+  }
+}
+.group:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
+* html .group {
+	zoom: 1;
+} /* IE6 */
+*:first-child+html .group {
+	zoom: 1;
+} /* IE7 */
+
+
+
+/************************************************/
+/* SELECTION                                    */
+/************************************************/
+
+::-moz-selection {
+	text-shadow: none;
+	background: #B00000;
+	color: #ffffff;
+}
+::selection {
+	text-shadow: none;
+	background: #B00000;
+	color: #ffffff;
+}
+
+/************************************************/
+/* PLACEHOLDER                                  */
+/************************************************/
+
+::-webkit-input-placeholder{color: #999999;}
+:-moz-placeholder{color: #999999;}
+::-moz-placeholder{color: #999999;}
+:-ms-input-placeholder{color: #999999;}
+
+
+#content .wp-block-columns{
+  margin-bottom: unset;
+  flex-wrap: unset;
+  > .wp-block-column{
+    flex-basis: unset !important; 
+    flex-grow: unset;
+    min-width: unset;
+    margin: 0;
+  }
+}
+
+#slickerbtn {}
+
+/** FOR SLIDEBAR AND SLICKNAV START **/
+
+
+
+#sb-site {
+	background: #ffffff none repeat scroll 0 0;
+	left: 0;
+}
+#resp-sidebar #responsive-menu .slicknav_menu > .slicknav_btn {
+	display: none;
+}
+#responsive-menu .slicknav_menu {
+	background: transparent none repeat scroll 0 0;
+	padding: 0;
+}
+#responsive-menu .slicknav_menu .slicknav_nav {
+	display: inherit !important;
+}
+#responsive-menu .slicknav_menu .slicknav_nav .menu-item-has-children .sub-menu {
+	visibility: inherit !important;
+}
+/** FOR SLIDEBAR AND SLICKNAV END **/
+
+
+
+/** HEADER AREA START **/
+
+
+/************************************************/
+/* PAGINATOR STYLE START                        */
+/************************************************/
+.pagination {
+	clear:both;
+	padding:20px 0;
+	position:relative;
+	font-size:11px;
+	line-height:13px;
+}
+ 
+.pagination span, .pagination a {
+	display:block;
+	float:left;
+	margin: 2px 2px 2px 0;
+	padding:6px 9px 5px 9px;
+	text-decoration:none;
+	width:auto;
+	color:#ffffff;
+	background: #555;
+}
+ 
+.pagination a:hover{
+	color:#ffffff;
+	background: #3279BB; /** change this **/
+}
+ 
+.pagination .current{
+	padding:6px 9px 5px 9px;
+	background: #3279BB; /** change this **/
+	color:#ffffff;
+}
+/************************************************/
+/* PAGINATOR STYLE END                          */
+/************************************************/
+
+
+/************************************************/
+/* ACF GOOGLE MAP CSS START                     */
+/************************************************/
+.acf-map {
+	width: 100%;
+	height: 400px;
+	border: #ccc solid 1px;
+	margin: 20px 0;
+}
+
+/* fixes potential theme css conflict */
+.acf-map img {
+   max-width: inherit !important;
+}
+
+/************************************************/
+/* ACF GOOGLE MAP CSS END                       */
+/************************************************/
+
+
+
+/************************************************/
+/* CUSTOMIZE POPUP FOR MAGNIFIC JS START        */
+/************************************************/
+.site-contact-form-toggle {
+  position: fixed;
+  bottom: 0;
+  right: 7.5em;
+  z-index: 100;
+  display: inline-block;
+  padding: 0 1.714em;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #960000;
+  color: #ffffff;
+  font-size: 14px;
+  font-size: 0.84rem;
+  font-weight: bold;
+  line-height: 2.571em;
+  text-transform: uppercase;
+}
+.site-contact-form-toggle:hover, .site-contact-form-toggle:focus {
+  background-color: #7c0000;
+  color: #ffffff;
+}
+
+.mfp-wrap .popup-form {
+  opacity: 0;
+  transform: translateX(300px);
+  transition: transform .5s ease, opacity .3s ease;
+}
+.mfp-wrap .popup-form .mfp-close {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity .5s ease, transform .5s ease;
+  transition-delay: .45s;
+}
+
+.mfp-ready .popup-form {
+  opacity: 1;
+  transform: translateX(0);
+}
+.mfp-ready .popup-form .mfp-close {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.popup-form {
+  position: relative;
+  max-width: 56.143em;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #323232;
+  border-radius: 2px;
+  background-color: #f0f0f0;
+}
+.popup-form p {
+  margin: 0 0 0.857em;
+}
+.popup-form input[type="text"],
+.popup-form input[type="email"],
+.popup-form input[type="url"],
+.popup-form input[type="password"],
+.popup-form input[type="search"],
+.popup-form input[type="number"],
+.popup-form input[type="tel"],
+.popup-form input[type="range"],
+.popup-form input[type="date"],
+.popup-form input[type="month"],
+.popup-form input[type="week"],
+.popup-form input[type="time"],
+.popup-form input[type="datetime"],
+.popup-form input[type="datetime-local"],
+.popup-form input[type="color"] {
+  height: 2.429em;
+}
+.popup-form button, .popup-form input[type="button"],
+.popup-form input[type="reset"],
+.popup-form input[type="submit"] {
+  min-width: 7.286em;
+  padding: 0.500em 1.071em;
+}
+.popup-form .mfp-close,
+.popup-form .site-contact-form-toggle {
+  position: absolute;
+  top: 0.214em;
+  left: 100%;
+  opacity: 1;
+  background-color: #960000;
+  color: #ffffff;
+  height: 1.286em;
+  width: 1.286em;
+  min-width: 1px;
+  font-size: 28px;
+  font-size: 2rem;
+  line-height: 1.286em;
+  padding: 0;
+  text-align: center;
+}
+.popup-form .mfp-close:hover, .popup-form .mfp-close:focus,
+.popup-form .site-contact-form-toggle:hover,
+.popup-form .site-contact-form-toggle:focus {
+  background-color: #7c0000;
+  color: #ffffff;
+}
+.popup-form .form-row {
+  margin: 0 -0.857em;
+}
+.popup-form .form-col {
+  padding: 0 0.857em;
+}
+.popup-form .checkbox-group,
+.popup-form .radio-group {
+  column-gap: 1.714em;
+}
+
+#site-contact-form {
+  position: fixed;
+  bottom: 0;
+  right: 4.643em;
+  z-index: 100;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
+  transform: translateY(101%);
+  transition: transform .5s ease;
+}
+#site-contact-form.show-form {
+  transform: translateY(0);
+}
+
+#site-special-price-form {
+  max-width: 31.429em;
+  padding: 2.143em 3.214em;
+  z-index: 100;
+}
+
+@media all and (max-width: 1285px) {
+  .site-contact-form-toggle {
+    right: 5em;
+    line-height: 2.25em;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .popup-form {
+    max-width: 90%;
+    padding-left: 1.429em;
+  }
+}
+
+@media all and (max-width: 787px) {
+
+}
+
+@media all and (max-width: 600px) {
+  .site-contact-form-toggle {
+    right: 1rem;
+    display: none;
+  }
+
+  #site-contact-form {
+    right: 2.5rem;
+  }
+
+  .popup-form {
+    max-width: 86%;
+  }
+
+  #site-special-price-form {
+    max-width: 84%;
+    padding-left: 1.429em;
+    padding-right: 1.429em;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .site-contact-form-toggle {
+    display: none;
+  }
+
+  .form-row .form-col-6 {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .popup-form button, .popup-form input[type="button"], .popup-form input[type="reset"], .popup-form input[type="submit"] {
+    min-width: 6em;
+  }
+}
+/************************************************/
+/* CUSTOMIZE POPUP FOR MAGNIFIC JS END        */
+/************************************************/
+
+
+
+
+
+
+/************************************************/
+/* ADMIN TOOL BAR START*/
+/************************************************/
+body.logged-in #mainHeaderHolder {
+	margin: 32px 0 0 0;
+}
+@media only screen and (max-width : 782px ) {    
+html #wpadminbar {
+	position: fixed;
+	top: 0;
+}
+body.logged-in #mainHeaderHolder {margin: 46px 0 0 0;}
+}
+@media only screen and (max-width : 767px ) {
+html.logged-in-html {
+	margin: 0 !important;
+}
+}
+/************************************************/
+/* ADMIN TOOL BAR START*/
+/************************************************/
+
+/*SCROLL TO TOP*/
+#backtotop {
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+}
+#backtotop span {
+    font-family: fontawesome;
+    color: #000;
+    font-size: 2.3rem;
+    cursor: pointer;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #c1f701;
+    text-align: center;
+    border-radius: 50%;
+}
+#backtotop span	{
+transition: all 0.3s ease-in-out 0s;
+-webkit-transition: all 0.3s ease-in-out 0s;
+-moz-transition: all 0.3s ease-in-out 0s;
+-o-transition: all 0.3s ease-in-out 0s;
+}
+#backtotop span:hover{
+	background: #961a1d;
+	color: #fff;
+}
+/*SCROLL TO TOP*/
+
+
+a[title="jQuery Lightbox"]{display: none !important}
+
+
+/************************************************/
+/* MY NEW BTN HAM MENU STYLE StART */
+/************************************************/
+html.sb-active body #backtotop {
+  display: none !important;
+}
+#hamMenuHolder {
+    right: -0.9rem;
+    position: absolute;
+    top: 1rem;
+    cursor: pointer;
+}
+#innerHamMenuHolder{}
+#innerHamMenuHolder p.menuTitle {
+    float: left;
+    padding: 0.8rem 0 0 0;
+    line-height: 100%;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #003d5f;
+}
+#hmhBTNHolder{float: right;}
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {background-color: #003d5f !important;}
+#mainHeaderHolder {
+  -webkit-transition: -webkit-transform 400ms ease;
+  -moz-transition: -moz-transform 400ms ease;
+  -o-transition: -o-transform 400ms ease;
+  transition: transform 400ms ease;
+  -webkit-transition-property: -webkit-transform, left, right;
+  -webkit-backface-visibility: hidden;
+}
+/************************************************/
+/* MY NEW BTN HAM MENU STYLE END */
+/************************************************/
+
+/* montserrat-300 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Montserrat Light'), local('Montserrat-Light'),
+       url('./fonts/montserrat-v14-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/montserrat-v14-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-300italic - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Montserrat Light Italic'), local('Montserrat-LightItalic'),
+       url('./fonts/montserrat-v14-latin-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/montserrat-v14-latin-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('./fonts/montserrat-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/montserrat-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-italic - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Montserrat Italic'), local('Montserrat-Italic'),
+       url('./fonts/montserrat-v14-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/montserrat-v14-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-500 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Montserrat Medium'), local('Montserrat-Medium'),
+       url('./fonts/montserrat-v14-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/montserrat-v14-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-500italic - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Montserrat Medium Italic'), local('Montserrat-MediumItalic'),
+       url('./fonts/montserrat-v14-latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/montserrat-v14-latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-600 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+       url('./fonts/montserrat-v14-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/montserrat-v14-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-600italic - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Montserrat SemiBold Italic'), local('Montserrat-SemiBoldItalic'),
+       url('./fonts/montserrat-v14-latin-600italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/montserrat-v14-latin-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-700 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+       url('./fonts/montserrat-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/montserrat-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-700italic - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Montserrat Bold Italic'), local('Montserrat-BoldItalic'),
+       url('./fonts/montserrat-v14-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/montserrat-v14-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-800 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
+       url('./fonts/montserrat-v14-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/montserrat-v14-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-800italic - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Montserrat ExtraBold Italic'), local('Montserrat-ExtraBoldItalic'),
+       url('./fonts/montserrat-v14-latin-800italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/montserrat-v14-latin-800italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-900 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Montserrat Black'), local('Montserrat-Black'),
+       url('./fonts/montserrat-v14-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/montserrat-v14-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-900italic - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Montserrat Black Italic'), local('Montserrat-BlackItalic'),
+       url('./fonts/montserrat-v14-latin-900italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/montserrat-v14-latin-900italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}

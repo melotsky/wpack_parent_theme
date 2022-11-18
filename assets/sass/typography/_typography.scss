@@ -1,0 +1,499 @@
+/************************************************/
+/* TYPO START START								*/
+/************************************************/
+
+.entry-content{}
+.entry-content p{
+	line-height: 120%;
+	color: #333;
+	font-weight: 400;
+	font-size: 0.9rem;
+	padding: 0;
+	margin: 0 0 1rem;
+}
+.entry-content .has-background p, 
+.entry-content .has-backgroundul ul li,
+.entry-content .has-backgroundul ol li{
+	color: #fff;
+}
+
+.entry-content ul{
+	list-style-type: disc;
+	list-style-position: outside;
+	margin: 0 0 1rem 1.5rem;
+	padding: 0;	
+}
+.entry-content ul li{
+	padding: 0.5rem 0 0 0;
+	line-height: 120%;
+	color: #333;
+	font-weight: 400;
+	font-size: 0.9rem;	
+}
+.entry-content ul li ul{
+	padding: 0.5rem 0 0 0;
+}
+.entry-content ul li:first-child{
+	padding: 0;
+}
+
+.entry-content ol{
+	list-style-type: decimal;
+	list-style-position: outside;
+	margin: 0 0 1rem 1.5rem;
+	padding: 0;	
+}
+.entry-content ol li{
+	padding: 0.5rem 0 0 0;
+	line-height: 120%;
+	color: #000;
+	font-weight: 400;
+	font-size: 0.9rem;	
+}
+
+.entry-content ul li ol{
+	padding: 0.5rem 0 0 0;
+}
+.entry-content ol li:first-child{
+	padding: 0;
+}
+
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6{
+	padding: 0;
+	line-height: 120%;
+	color: #072b90;
+	text-transform: uppercase;	
+}
+.entry-content .has-background h1, .entry-content .has-background h2, .entry-content .has-background h3, 
+.entry-content .has-background h4, .entry-content .has-background h5, .entry-content .has-background h6{
+	color: #fff;
+}
+
+.entry-content h1{
+	margin: 1rem 0 1rem;
+	font-size: 2.5rem;
+}
+.entry-content h2{
+	margin: 1rem 0 1rem;
+	font-size: 2rem;
+}
+.entry-content h3{
+	margin: 0.8rem 0 1rem;
+	font-size: 1.5rem;
+}
+.entry-content h4{
+	margin: 0.8rem 0 1rem;
+	font-size: 1.5rem;
+}
+.entry-content h5{
+	margin: 0.8rem 0 1rem;
+	font-size: 1.3rem;
+}
+.entry-content h6{
+	margin: 0.8rem 0 1rem;
+	font-size: 1.2rem;
+}
+.entry-content h1:first-child, .entry-content h2:first-child, .entry-content h3:first-child, 
+.entry-content h4:first-child, .entry-content h5:first-child, .entry-content h6:first-child{
+	margin-top: 0;
+}
+
+.entry-content a:link, .entry-content a:visited, .entry-content a:active{
+	color: #072b90;
+	text-decoration: underline;
+}
+.entry-content a:hover{
+	opacity: 0.8;
+}
+
+.entry-content .has-background a:link, .entry-content .has-background a:visited, .entry-content .has-background a:active{
+	color: #fff;
+	text-decoration: underline;
+}
+.entry-content a:hover{
+	opacity: 0.8;
+}
+
+
+.wp-caption.alignnone {
+    display: inline-block;
+    margin: 0;
+    max-width: 100%;
+    width: auto !important;
+	padding: 0 0 1em;	
+}
+.wp-caption.alignright {
+    display: block;
+    float: right;
+    margin: 0;
+    max-width: 100%;
+    padding: 0 0 1em 1em;
+    width: auto !important;
+}
+.wp-caption.alignleft {
+    display: block;
+    float: left;
+    margin: 0;
+    max-width: 100%;
+    padding: 0 1em 1em 0;
+    width: auto !important;
+}
+.wp-caption.aligncenter {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 0 1em;
+    width: auto !important;
+}
+.wp-caption.aligncenter img{margin:0 auto;}
+.wp-caption img {
+    display: block;
+}
+.wp-caption .wp-caption-text {
+    font-size: 0.7em;
+    padding: 0;
+    text-align: center;
+}
+
+img.alignnone {
+    display: block;
+    float: none;
+    margin: 0 0 1em;
+}
+img.alignright{
+    display: block;
+    float: right;
+    margin: 0 0 1em 1em;
+    padding: 0;	
+}
+img.alignleft {
+    display: block;
+    float: left;
+    margin: 0 1em 1em 0;
+    padding: 0;
+}
+img.aligncenter {
+    display: block;
+    float: none;
+    margin: 0 auto 1em;
+}
+
+blockquote{}
+blockquote p {
+    padding: 0.5em 0 !important;
+}
+
+blockquote {
+	font-family: Georgia, serif;
+	font-size: 1em;
+	font-style: italic;
+	width: auto;
+	margin: 0.25em 0 1em;
+	padding: 0.25em 40px;
+	line-height: 1.45;
+	position: relative;
+	color: #383838;
+	border-left:3px dashed #c1c1c1;
+	background:#eee;
+}
+
+blockquote cite {
+	color: #999999;
+	font-size: 14px;
+	display: block;
+	margin-top: 5px;
+}
+ 
+blockquote cite:before {
+	content: "\2014 \2009";
+}
+
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+
+
+#content {
+	.entry-content {
+		.margin_top_bottom{
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+		}
+	}
+}
+
+#content {
+	.entry-content {
+		.margin_top{
+			margin-top: 2rem;
+		}
+	}
+}
+
+#content {
+	.entry-content {
+		.margin_bottom{
+			margin-bottom: 2rem;
+		}
+	}
+}
+
+/************************************************/
+/* TYPO START END								*/
+/************************************************/
+
+@import "headings";
+
+@import "copy";
+
+
+
+/************************************************/
+/* MEDIA QUERIES THIS IS MOBILE FIRST APPROACH  */
+/************************************************/
+
+@media only screen and (min-width : 381px) and (max-width : 399px) {
+}
+
+@media only screen and (min-width : 400px ) {
+}
+@media only screen and (min-width : 431px ) {}
+@media only screen and (min-width : 461px ) {}
+@media only screen and (min-width : 481px ) {}
+
+@media only screen and (min-width : 500px ) {}
+@media only screen and (min-width : 531px ) {
+}
+@media only screen and (min-width : 561px ) {}
+@media only screen and (min-width : 581px ) {}
+
+@media only screen and (min-width : 600px ) {
+
+}
+@media only screen and (min-width : 631px ) {}
+@media only screen and (min-width : 661px ) {}
+@media only screen and (min-width : 681px ) {}
+
+@media only screen and (min-width : 700px ) {
+
+}
+@media only screen and (min-width : 731px ) {}
+@media only screen and (min-width : 761px ) {}
+@media only screen and (min-width : 781px ) {}
+
+@media only screen and (min-width : 800px ) {}
+@media only screen and (min-width : 831px ) {}
+@media only screen and (min-width : 861px ) {}
+@media only screen and (min-width : 881px ) {}
+
+@media only screen and (min-width : 900px ) {
+}
+@media only screen and (min-width : 931px ) {}
+@media only screen and (min-width : 961px ) {}
+@media only screen and (min-width : 981px ) {
+	#content {
+		.entry-content {
+			.margin_top_bottom{
+				margin-top: 3rem;
+				margin-bottom: 3rem;
+			}
+		}
+	}
+	#content {
+		.entry-content {
+			.margin_top{
+				margin-top: 3rem;
+			}
+		}
+	}
+	#content {
+		.entry-content {
+			.margin_bottom{
+				margin-bottom: 3rem;
+			}
+		}
+	}
+
+
+    #content .entry-content > .top_bottom_spacer {
+        padding: 3rem 0;
+    }
+
+	.entry-content h1{
+		margin: 1.5rem 0 1rem;
+		font-size: 3rem;
+	}
+	.entry-content h2{
+		margin: 1.5rem 0 1rem;
+		font-size: 2.5rem;
+	}
+	.entry-content h3{
+		margin: 1rem 0 1rem;
+		font-size: 1.8rem;
+	}
+	.entry-content h4{
+		margin: 1rem 0 1rem;
+		font-size: 1.65rem;
+	}
+	.entry-content h5{
+		margin: 1rem 0 1rem;
+		font-size: 1.5rem;
+	}
+	.entry-content h6{
+		margin: 1rem 0 1rem;
+		font-size: 1.4rem;
+	}
+
+
+}
+
+@media only screen and (min-width : 1000px ) {
+
+}
+@media only screen and (min-width : 1025px ) {
+}
+@media only screen and (min-width : 1031px ) {
+}
+@media only screen and (min-width : 1061px ) {}
+@media only screen and (min-width : 1081px ) {
+}
+
+@media only screen and (min-width : 1100px ) {
+}
+@media only screen and (min-width : 1131px ) {
+}
+@media only screen and (min-width : 1161px ) {
+}
+@media only screen and (min-width : 1181px ) {
+}
+
+@media only screen and (min-width : 1200px ) {
+}
+@media only screen and (min-width : 1231px ) {
+	#content {
+		.entry-content {
+			.margin_top_bottom{
+				margin-top: 4rem;
+				margin-bottom: 4rem;
+			}
+		}
+	}
+	#content {
+		.entry-content {
+			.margin_top{
+				margin-top: 4rem;
+			}
+		}
+	}
+	#content {
+		.entry-content {
+			.margin_bottom{
+				margin-bottom: 4rem;
+			}
+		}
+	}
+
+    #content .entry-content > .top_bottom_spacer {
+        padding: 4rem 0;
+    }
+
+	.entry-content h1{
+		margin: 2rem 0 1rem;
+		font-size: 3.5rem;
+	}
+	.entry-content h2{
+		margin: 2rem 0 1rem;
+		font-size: 3rem;
+	}
+	.entry-content h3{
+		margin: 1.3rem 0 1rem;
+		font-size: 2rem;
+	}
+	.entry-content h4{
+		font-size: 1.8rem;
+	}
+	.entry-content h5{
+		font-size: 1.6rem;
+	}
+	.entry-content h6{
+		font-size: 1.5rem;
+	}
+	
+	.entry-content p, .entry-content ul li, .entry-content ol li {
+		line-height: 140%;
+		font-size: 1rem;
+	}
+}
+@media only screen and (min-width : 1261px ) {}
+@media only screen and (min-width : 1281px ) {}
+
+@media only screen and (min-width : 1300px ) {
+}
+@media only screen and (min-width : 1331px ) {
+}
+@media only screen and (min-width : 1361px ) {}
+@media only screen and (min-width : 1381px ) {}
+
+@media only screen and (min-width : 1400px ) {
+
+}
+@media only screen and (min-width : 1431px ) {}
+@media only screen and (min-width : 1461px ) {}
+@media only screen and (min-width : 1481px ) {}
+
+@media only screen and (min-width : 1500px ) {
+}
+@media only screen and (min-width : 1531px ) {}
+@media only screen and (min-width : 1561px ) {}
+@media only screen and (min-width : 1581px ) {}
+
+@media only screen and (min-width : 1600px ) {
+}
+@media only screen and (min-width : 1631px ) {}
+@media only screen and (min-width : 1661px ) {}
+@media only screen and (min-width : 1681px ) {}
+
+@media only screen and (min-width : 1700px ) {
+}
+@media only screen and (min-width : 1731px ) {
+}
+@media only screen and (min-width : 1761px ) {}
+@media only screen and (min-width : 1781px ) {}
+
+@media only screen and (min-width : 1800px ) {
+}
+@media only screen and (min-width : 1831px ) {}
+@media only screen and (min-width : 1861px ) {}
+@media only screen and (min-width : 1881px ) {}
+
+@media only screen and (min-width : 1900px ) {
+}

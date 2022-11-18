@@ -1,0 +1,141 @@
+/************************************************/
+/* RESPONSIVE MENU STYLE START                  */
+/************************************************/
+
+#responsive-menu {
+	margin: 0 auto;
+	padding: 0 0 1.5rem;
+}
+#responsive-menu .slicknav_menu {
+	background: transparent none repeat scroll 0 0;
+	padding: 0;
+}
+#responsive-menu .slicknav_menu > .slicknav_btn {
+	background: #694326 none repeat scroll 0 0;
+	border-radius: 5px;
+	margin: 0;
+}
+#responsive-menu .slicknav_menu > .slicknav_btn:hover {
+	background: #e35933 none repeat scroll 0 0;
+}
+#responsive-menu .slicknav_menu > .slicknav_btn.slicknav_open {
+	background: #e35933 none repeat scroll 0 0;
+}
+#responsive-menu .slicknav_menu > .slicknav_btn .slicknav_menutxt {
+	font-weight: 400;
+	text-shadow: none;
+	text-transform: capitalize;
+}
+#responsive-menu .slicknav_menu > .slicknav_btn .slicknav_icon .slicknav_icon-bar {
+	box-shadow: none;
+}
+#responsive-menu .slicknav_menu .slicknav_nav {
+	font-size: inherit;
+	padding: 0.5rem 0 0;
+}
+#responsive-menu .slicknav_menu .slicknav_nav > li:first-child {
+	border-top: 0 none;
+}
+#responsive-menu .slicknav_menu .slicknav_nav > li {
+	border-top: 1px solid #cfcfcf;
+	font-size: 0.8rem;
+	font-weight: 500;
+	line-height: 120%;
+	text-align: left;
+	text-transform: uppercase;
+}
+#responsive-menu .slicknav_menu .slicknav_nav > li > a:link, #responsive-menu .slicknav_menu .slicknav_nav > li > a:visited, #responsive-menu .slicknav_menu .slicknav_nav > li > a:active {
+	background: transparent none repeat scroll 0 0;
+	border-radius: 0;
+	color: #fff;
+	margin: 0 auto;
+	padding: 0.5rem;
+	text-decoration: none;
+}
+#responsive-menu .slicknav_menu .slicknav_nav > li > a:hover {
+	background: transparent none repeat scroll 0 0;
+	color: #fcff00;
+}
+#responsive-menu .slicknav_menu .slicknav_nav .slicknav_row > a:link, #responsive-menu .slicknav_menu .slicknav_nav .slicknav_row > a:visited, #responsive-menu .slicknav_menu .slicknav_nav .slicknav_row > a:active {
+	background: transparent none repeat scroll 0 0;
+	color: inherit;
+	text-decoration: none;
+}
+#responsive-menu .slicknav_menu .slicknav_nav > li > .sub-menu {
+	margin: 0 auto 0.7rem;
+	visibility: inherit !important;
+	width: 94%;
+}
+#responsive-menu .slicknav_menu .slicknav_nav > li > .sub-menu > li {
+	border-top: 1px solid #cfcfcf;
+	font-size: 0.8rem;
+	font-weight: 500;
+	line-height: 120%;
+	text-align: left;
+	text-transform: uppercase;
+}
+#responsive-menu .slicknav_menu .slicknav_nav > li > .sub-menu > li:first-child {
+	border-top: 0 none;
+}
+#responsive-menu .slicknav_menu .slicknav_nav > li > .sub-menu > li > a:link, #responsive-menu .slicknav_menu .slicknav_nav > li > .sub-menu > li > a:visited, #responsive-menu .slicknav_menu .slicknav_nav > li > .sub-menu > li > a:active {
+	background: transparent none repeat scroll 0 0;
+	border-radius: 0;
+	color: #fff;
+	margin: 0 auto;
+	padding: 0.5rem;
+	text-decoration: none;
+}
+#responsive-menu .slicknav_menu .slicknav_nav > li > .sub-menu > li > a:hover {
+	background: transparent none repeat scroll 0 0;
+	color: #fcff00;
+}
+#responsive-menu .slicknav_menu .slicknav_nav > li > .sub-menu > li .sub-menu {
+	margin: 0 auto 0.7rem;
+	visibility: inherit !important;
+	width: 94%;
+}
+#responsive-menu .slicknav_menu .slicknav_nav > li > .sub-menu > li .sub-menu li {
+	border-top: 1px solid #cfcfcf;
+	font-size: 0.8rem;
+	font-weight: 500;
+	line-height: 120%;
+	text-align: left;
+	text-transform: uppercase;
+}
+#responsive-menu .slicknav_menu .slicknav_nav > li > .sub-menu > li .sub-menu li:first-child {
+	border-top: 0 none;
+}
+#responsive-menu .slicknav_menu .slicknav_nav > li > .sub-menu > li .sub-menu li > a:link, #responsive-menu .slicknav_menu .slicknav_nav > li > .sub-menu > li .sub-menu li > a:visited, #responsive-menu .slicknav_menu .slicknav_nav > li > .sub-menu > li .sub-menu li > a:active {
+	background: transparent none repeat scroll 0 0;
+	border-radius: 0;
+	color: #fff;
+	margin: 0 auto;
+	padding: 0.5rem;
+	text-decoration: none;
+}
+#responsive-menu .slicknav_menu .slicknav_nav > li > .sub-menu > li .sub-menu li > a:hover {
+	background: transparent none repeat scroll 0 0;
+	color: #fcff00;
+}
+#responsive-menu .slicknav_menu .slicknav_nav > li > a > .home-icon {
+	display: none;
+}
+#resp-holder {
+	box-sizing: border-box;
+	padding: 1rem;
+}
+.copyright-header-mobile {
+	color: #ffffff;
+	font-size: 0.7rem;
+	margin: 0;
+	text-align: center;
+}
+.copyright-header-mobile a:link, .copyright-header-mobile a:visited, .copyright-header-mobile a:active {
+	color: #ffffff;
+}
+.copyright-header-mobile a:hover {
+	color: #fcff00
+}
+/************************************************/
+/* RESPONSIVE MENU STYLE END                    */
+/************************************************/
